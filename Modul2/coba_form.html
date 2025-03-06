@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sederhana</title>
+    <link rel="icon" type="img/png" href="gambar/icon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <form action="/action_page.php" method="get" target="_blank">
+        <label for="depan">Nama depan:</label><br>
+        <input type="text" id="depan" name="i_name" value="Budi" ><br>
+        <label for="n_belakang">Nama Belakang:</label><br>
+        <input type="text" id="n_belakang" name="i_belakang" value="Prawira"><br><br>
+        <input type="submit" value="kirim">
+        <input type="reset" value="reset">
+    </form>
+    <p>Jika Anda mengklik tombol "kirim", data formulir akan dikirim ke halaman bernama
+        "/action_page.php".
+    </p>
+    <p><!-- Uji coba dengan menambahkan atribut target dengan isi_self,_blank dll sama seperti modul 1 yaitu  tag yang digunakan menentukan dimana halamannya yang dibuka
+        _blank untuk membuka tab di halaman yang baru _self untuk membuka tautan dijendela yang sama _parent membuka jendela induk dan _top membuka tautan diseluruh jendela 
+        Penggunaan method get memungkinkan data diirim melalui url diatas dan metod post data terkirim secara tersembunyi --> </p>
+</body>
+</html>
