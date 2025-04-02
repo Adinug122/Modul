@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-gap: 50px;
+            background-color: #2196f3;
+            padding: 10px;
+            grid-template-columns: 10px 500px 20px 10px;
+        }
+        .item1{
+            grid-column-start:2;
+            grid-column-end: 5;
+            background-color: rgba(255,255,255,0.8);
+            padding: 20px;
+            grid-column: 1/5;
+        }
+        .item{
+            background-color: rgba(255,255,255,0.8);
+            border: 1px solid rgba(0,0,0,0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>      
+        <div> elemen dalam grid akan membentang dari kolom pertama hingga kolom ketiga.</div>
+        <div>Kesimpulan skenario 1 grid-column-start column tersebut akan dimulai setelah angka yang dipilih
+            sedangkan grid-column-end akan berhenti  sebelum angka yang dipilih di column </div>
+        <div>Pada skenario 2 ini, perubahan nilai grid-template-columns memengaruhi bagaimana elemen dalam grid ditampilkan. Jika menggunakan nilai yang tidak proporsional, seperti 10px 500px 20px 10px, tata letak menjadi kurang seimbang karena beberapa kolom terlalu kecil untuk menampung konten. Sebaliknya, kombinasi seperti 70px 300px auto 40px memberikan struktur yang lebih baik dengan distribusi ruang yang lebih fleksibel. </div>
+        <div>Kesimpulan skenario 3 tersebut dengan menambahkan grid-row 1/4 maka kotak akan memanjang ke bawah di baris ke 4 dengan memabahkan misal 1/5 maka element juga akan memanjang kebawah kembali</div>
+        <div> Kesimpulan skenario 4 adalah dengan menambahkan grid-column 1/4 elemen akan memanjang dari kolom pertama hingga ke empat dan jika 1/5 maka juga akan memanjang lebih  lebar lagi</div>
+    </div>
+</body>
+</html>
