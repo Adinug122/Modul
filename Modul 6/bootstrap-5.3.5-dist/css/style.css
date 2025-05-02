@@ -1,0 +1,60 @@
+section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.hero-box .box p{
+    width: 500px;
+}
+.hero-box .box img{
+    width: 400px;
+}
+
+.about{
+    margin-top:-30px ;
+}
+.about-box img{
+    width: 400px;
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+}
+.card-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.form-area{
+    padding-top: 7%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.left{
+    background-color: #0d6efd;
+    padding: 200px 98px;
+
+}
+.left h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+}
